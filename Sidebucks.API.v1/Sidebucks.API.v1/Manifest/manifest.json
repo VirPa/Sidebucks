@@ -1,0 +1,35 @@
+{
+  "Info": {
+    "Name": "Sidebucks",
+    "Protocol": "http://",
+    "Uri": "54.169.135.20/",
+    "Api": "api/",
+    "Docs": "docs/",
+    "Files": "files/",
+    "ApiKey": "gStFOFmhfot7neOa8hl6yU9swkVFICVFeoQTPWN0hVD94QDxHnSP0OAe2hvsnPXzHnRceoR73Jw1ZeAgnvX1TTLLqi9HKnXYL6d",
+    "SendEmail": true
+  },
+  "Manifest": {
+    "IsEnabled": true
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=sidebucks.cjy4coyz5nhi.ap-southeast-1.rds.amazonaws.com;Initial Catalog=sidebucks;Persist Security Info=True;User ID=admin;Password=NIterbARmica"
+  },
+  "JwtTokens": {
+    "Key": "0987654321RUSH_B",
+    "Issuer": "http://virpa.technology",
+    "AccessTokenExpiryMins": 30,
+    "RefreshTokenExpiryMins": 86400
+  },
+  "EmailNotification": {
+    "Smtp": "smtp.gmail.com",
+    "Port": 587,
+    "SmtpUsername": "virpa.technology@gmail.com",
+    "SmtpPassword": "himitsu123",
+    "SenderEmail": "virpa.technology@gmail.com",
+    "EmailPassword": "himitsu123"
+  },
+  "Files": {
+    "DirectoryPath": "C:\\_files"
+  }
+}
